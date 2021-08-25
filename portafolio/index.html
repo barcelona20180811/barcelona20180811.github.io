@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/99f47d9dca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Portafolio Dinámico - María Angélica</title>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="logo">
+          <h1>María Angélica Pittau Leiva</h1>
+          <p>Licenciada en Filología Hispánica</p>
+          <p>Maestría en Dirección y Gestión de Centros Educativos</p>
+          <p>Doctoranda en Niveles de la Lengua Española</p>
+        </div>
+        <form action="">
+          <input
+            type="text"
+            class="barra-busqueda"
+            id="barra-busqueda"
+            placeholder="Buscar"
+          />
+        </form>
+        <div class="categorias" id="categorias">
+          <a href="#" class="activo">Todos</a>
+          <a href="#">Naturaleza</a>
+          <a href="#">Paisajes</a>
+          <a href="#">Ciudades</a>
+          <a href="#">Personas</a>
+          <a href="#">Animales</a>
+        </div>
+      </header>
+
+      <section class="grid" id="grid">
+        <div
+          class="item"
+          data-categoria="ciudades"
+          data-etiquetas="ciudades autos carros coches
+          calles"
+          data-descripcion="1.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/ciudad1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="personas"
+          data-etiquetas="personas mujeres"
+          data-descripcion="2.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/persona1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="paisajes"
+          data-etiquetas="paisajes montañas mar playas"
+          data-descripcion="3.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/paisaje1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="animales"
+          data-etiquetas="animales leones"
+          data-descripcion="4.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/animal1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="animales"
+          data-etiquetas="animales osos pandas"
+          data-descripcion="5.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/animal2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="personas"
+          data-etiquetas="personas mujeres"
+          data-descripcion="6.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/persona2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="paisajes"
+          data-etiquetas="paisajes montañas nubes volcanes rocas"
+          data-descripcion="7.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/paisaje2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="ciudades"
+          data-etiquetas="ciudades paisajes rascacielos mar"
+          data-descripcion="8.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/ciudad2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="naturaleza"
+          data-etiquetas="naturaleza plantas bosques"
+          data-descripcion="9.- lorem ipsum dolor sit amet, consectet."
+        >
+          <div class="item-contenido">
+            <img src="img/naturaleza1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+          <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+          <img src="" alt="" />
+        </div>
+        <p class="descripcion"></p>
+      </section>
+
+      <footer class="contenedor">
+        <div class="redes-sociales">
+          <div class="contenedor-icono">
+            <a
+              href="https://twitter.com/JosManu00732686"
+              target="_blank"
+              rel="noopener"
+              class="twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+
+          <div class="contenedor-icono">
+            <a
+              href="https://www.facebook.com/josemanuel.herrero.33/"
+              target="_blank"
+              rel="noopener"
+              class="facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+
+          <div class="contenedor-icono">
+            <a
+              href="https://www.instagram.com/josemanuel._herrero/"
+              target="_blank"
+              rel="noopener"
+              class="instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="creado-por">
+          <p>
+            Sitio diseñado por <a href="#">José Herrero</a> -
+            <a href="https://www.falconmasters.com">José Herrero</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- Scripts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
