@@ -1,0 +1,14 @@
+5
+36
+
+00:03:26​ - Iniciando el proyecto: 
+00:12:37​ - Estructura HTML del menú principal: 
+00:19:13​ - Estilos CSS del menú principal: 
+00:33:37​ - Estructura HTML de las categorías: 
+00:42:21​ - Estilos CSS de las categorías: 
+00:58:35​ - Estructura HTML de las subcategorías: 
+01:05:35​ - Estilos CSS de las subcategorías: 
+01:24:31​ - Código Javascript del menú: 
+01:48:33​ - Haciendo el menú responsive (parte 1): 
+02:09:11​ - Haciendo el menu responsive (parte 2): 
+02:16:26​ - Haciendo el menu responsive (parte 3):
