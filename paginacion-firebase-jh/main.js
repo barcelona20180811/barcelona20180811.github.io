@@ -79,8 +79,8 @@ botonAnterior.addEventListener('click', ()=>{
 		limit(4)
 		.startAfter(primerDoc)
 		.onSnapshot((snapshot) => {
-			//const documentos = snapshot.docs.reverse();
-			cargarDocumentos(snapshot.docs.reverse);
+			const documentos = snapshot.docs.reverse();
+			cargarDocumentos(documentos);
 		}
 	);
 });
