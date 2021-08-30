@@ -345,11 +345,11 @@ footer {
   padding: 50px 0px;
   font-family: "Nunito", sans-serif;
   *background-color: var(--color-esqueleto);
-  background-image: url("../Images/background-footer.svg");
+  background-image: url("../images/background-footer.svg");
   background-size: cover;
 
-  /*webkit-mask-image: url("../Images/background-footer.svg");
-    mask-image: url("../Images/background-footer.svg");
+  /*webkit-mask-image: url("../images/background-footer.svg");
+    mask-image: url("../images/background-footer.svg");
     -webkit-mask-size: cover;
     mask-size: cover;*/
 }
