@@ -14,40 +14,35 @@
   --color-esqueleto: #eff3f5;
 }
 
-/*
-
-header{
-	width: 100%;
-	height: 60px;
-	background: var(--color-esqueleto);
+header {
+  width: 100%;
+  height: 60px;
+  background: var(--color-esqueleto);
 }
 
-.cover{
-	width: 100%;
-	height: 500px;
-	background: var(--color-esqueleto);
-	margin-top: 20px;
+.cover {
+  width: 100%;
+  height: 500px;
+  background: var(--color-esqueleto);
+  margin-top: 20px;
 }
 
-.container__article{
-	max-width: 1000px;
-	padding: 0 20px;
-	margin: auto;
-	margin-top: 20px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.container__article {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.container__article .box__article{
-	width: 200px;
-	height: 250px;
-	background: var(--color-esqueleto);
-	margin: 20px;
+.container__article .box__article {
+  width: 200px;
+  height: 250px;
+  background: var(--color-esqueleto);
+  margin: 20px;
 }
-
-
-*/
 
 /* Aquí debajo va el FOOTER */
 
