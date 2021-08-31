@@ -330,6 +330,22 @@ nav ul li a {
   position: relative; /*padre*/
   margin: 20px;
   font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 20px -10px #20202049;
+}
+
+.card:hover .info__description {
+  margin-top: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+.card:hover .icon {
+  margin-top: -110px;
+  border-radius: 20px 20px 0 0;
 }
 
 .icon {
@@ -340,20 +356,27 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s cubic-bezier(0.5, 0, 0, 1);
+  border-radius: 20px;
 }
 
 .icon i {
   font-size: 150px;
   color: #fff;
+  transition: all 0.4s cubic-bezier(0.5, 0, 0, 1);
 }
 
 .info__description {
   width: 100%;
   height: 220px;
   color: #474747;
-  background: #aec1ca;
+  background: #eff3f5;
   padding: 20px;
-  *margin-top: -220px;
+  margin-top: -220px;
+  transition: all 0.4s cubic-bezier(0.5, 0, 0, 1);
+  border-radius: 20px;
 }
 
 .info__description p {
@@ -371,26 +394,61 @@ nav ul li a {
   overflow: hidden;
 }
 
-/*****
+.info__description input {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background: #2196f3;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 30px -5px #20202049;
+  transition: box-shadow 300ms;
+}
 
+.info__description input:hover {
+  box-shadow: 1px 1px 30px -5px #20202070;
+}
 
+/* COLORES DE LAS CARDS */
 
+.c1:hover .icon {
+  background: #dd4b25;
+}
 
+.c1 .icon i {
+  color: #dd4b25;
+}
 
+.c1:hover .icon i {
+  color: #fff;
+}
 
+.c2:hover .icon {
+  background: #146eb0;
+}
 
+.c2 .icon i {
+  color: #146eb0;
+}
 
+.c2:hover .icon i {
+  color: #fff;
+}
 
+.c3:hover .icon {
+  background: #e8b600;
+}
 
+.c3 .icon i {
+  color: #e8b600;
+}
 
-
-
-
-
-
-
-
-*/
+.c3:hover .icon i {
+  color: #fff;
+}
 
 /*FIN DE LAS CARD*/
 
