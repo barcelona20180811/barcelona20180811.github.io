@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  position: relative;
+}
+
+.header__content {
+  width: 70%;
+}
+
+.header__img {
+  width: 70%;
+}
+
+.header__title {
+  font-size: 3rem;
+}
+
+.header__paragraph {
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.header__cta {
+  background: cornflowerblue;
+  padding: 20px 50px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.main {
+  height: 100vh;
+  background: rgb(224, 74, 238);
+}
