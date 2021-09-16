@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* TRANSICIONES */
+
+/* 
+.image {
+  display: block;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin: 30px auto;
+}
+
+.modal:target {
+  clip-path: circle(150% at top right);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.548);
+  display: flex;
+
+  clip-path: circle(0% at top right);
+  transition: clip-path 2s;
+}
+
+.modal:target .modal__picture {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   transition: clip-path 1s 0s; 
+}
+
+.modal__picture {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  transition: clip-path 1s 2s;
+}
+
+.modal__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal__close {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background: crimson;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+ */
+
+/* FIN TRANSICIONES */
+
+/* ANIMACIONES */
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background: tomato;
+  border-radius: 50%;
+  margin: 20px;
+
+  animation: 3 4s alternate muevete forwards 3s;
+
+  /* animation: muevete 2s;
+  animation: muevete;
+  animation-duration: 2s;
+  animation-iteration-count: 6;
+  animation-direction: normal;
+  animation-delay: 2s;
+  animation-fill-mode: both; */
+}
+
+@keyframes muevete {
+  0% {
+    /*from*/
+    transform: translate(0%) scale(1);
+    background: #000;
+    border: 3px solid #fff;
+  }
+
+  50% {
+    transform: translate(200%) scale(0.3);
+  }
+
+  100% {
+    /*to*/
+    transform: translate(400%) scale(1);
+    background: red;
+  }
+}
+
+/* FIN ANIMACIONES */
